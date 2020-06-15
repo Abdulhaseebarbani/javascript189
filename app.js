@@ -640,7 +640,7 @@
 // {
 //    alert("Incorrect Password")
 // }
-
+ 
 // chapter 12-13 task 6
 // correct if/else
 
@@ -651,4 +651,134 @@
 // else {
 //   alert("greeting = Good Evening");
 // }
+// Chapter 14-16 task 1
+// Empty array
+// var a= []
+// Chapter 14-16 task 2
+// Future sto
+// var a= []
+// a[0]=prompt("Add Student Name")
+// document.write(a)
+// chapter 14-16 task 3
+// string array
+// var a= ["Abdul"];
+// chapter 14-16 task 4
+// Number array
+// var a= [2];
+// chapter 14-16 task 5
+// Boolean array
+// var a= Boolean(10>9)
+// chapter 14-16 task 6
+// Mixed array
+// var a= [2,"Arbani",Boolean(10>9)];
 
+// chapter 14-16 task 7
+// display courses
+// var education = ["SSC","HSC","BCS","BS","B.COM","MS","M.PHIL.","Phd"]
+// for (var i= 0; i < education.length; i++){
+//     document.write( i+')' + education[i] + '<br>')
+// }
+
+// Chapter 14-16 task 8
+// Percentage
+
+// var names =["Ali","Ahmed","Muzzammil"] 
+// var marks =[450,480,380] 
+// var total = 500;
+// for(var i= 0; i < names.length ; i++) {
+//     document.write("score of " + names[i] + " is " + marks[i] + ". Percentage: " + (marks / total) * 100 + '<br>')
+// }
+
+// Chapter 14-16 task 9
+// Color 
+
+// var color= ["Red","Green","Yellow","Black","White"]
+// a) In start
+// // var ask = prompt("What color you want to add to the begining")
+// // color.unshift(ask)
+// document.write(color)
+// b)In End
+// var ask = prompt("What color you want to add to the End")
+// color.push(ask)
+// document.write(color)
+// c) adding 2 colors
+// var ask = prompt("What 2 color's you want to add to the start ", "Write with ,")
+// color.unshift(ask)
+// document.write(color)
+// d) Delting first from start
+// color.shift(0)
+// document.write(color)
+// e) Deleting the last color
+// color.pop(-1)
+// document.write(color)
+// f) at which index you want to add
+// var ask1 = prompt("At which index you want to add color")
+// var ask2 = prompt("which color")
+// color.splice(ask1,0,ask2)
+// document.write(color)
+// g) from which index you want to delete
+// var ask1 = prompt("How many colors you want to remove")
+// var ask2 = prompt("at which index")
+// color.splice(ask2,ask1,)
+// document.write(color)
+
+// Chapter 14-16 task 10
+// Acending order
+
+// var score = [480,120,320,230]
+// document.write('Score: ' + score + '<br>')
+// document.write('ordered score: '+ score.sort())
+
+// Chapter 14-16 task 11
+// Copy elements
+// var cities = ["Karachi","Islamabad","Lahore","Quetta"]
+// var copy = cities.slice(1,3) 
+// document.write('Cities list'+ '<br>' + cities +'<br>')
+// document.write('Selected Cities'+ '<br>' + copy)
+
+// chapter 14-16 task 12
+// join array
+// var arr = ["This","is","my","Cat"];
+// document.write('Array' + '<br>' + arr + '<br>')
+// document.write('String' +'<br>'+ arr.join(" "))
+
+// chapter 14-16 task 13
+// FIFO
+
+// var d = ["keyboard", "mouse","printer","monitor"]
+// for (var i= 0 ; i < d.length; i++){
+//     document.write('out: '+'<br>'+ d[i] + '<br>')
+// }
+// chapter 14-16 task 14
+// Reverse
+
+// var d = ["keyboard", "mouse","printer","monitor"]
+// for (var i = d.length - 1; i >= 0; i--){
+//     document.write('out: '+'<br>'+ d[i] + '<br>')
+// }
+
+// chapter 17-20 task 1
+// multidimensional array
+// matrix = new int[""][""];
+// chapter 17-20 task 2
+// matrix
+// matrix = new int[4][3];
+// chapter 17-20 task 3
+// numeric counting
+
+// for (var input = 1; input <= 10; input++){
+//     document.write[input]
+// }
+// chapter 17-20 task 4
+// Multiplication number
+// var t= prompt("Enter Number for Multiplication")
+// var h= prompt("How much times you want to multiply")
+// for ( var i=1 ; i<=h ; i++){
+//         document.write(t + 'x'+ i+ '='+ t*i + '<br>')
+//       }
+// chapter 17-20 task 5
+// Multiplication number
+// var fruits = ["Apple","Banana","Mango","Orange","Strawberry"]
+// for (var i= 0 ; i < fruits.length; i++){
+//     document.write[fruits]
+// }
